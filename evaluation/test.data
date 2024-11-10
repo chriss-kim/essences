@@ -1,0 +1,56 @@
+{
+    "agent_name": "Wedding Planner",
+    "agent_pool": ["wedding", "residence", "invitation", "account", "schedule"],
+    "test_data": [
+        {
+            "target_agents": ["wedding", "residence", "account", "invitation"],
+            "utterance": "2025년 4월에 제주도에서 스몰 웨딩을 하고 싶어. 초대 인원은 50명 정도이고, 예산은 2천만원이야. 결혼식 장소는 뷰가 좋은 곳으로 알아봐줘.",
+            "selected_agents": ["wedding", "residence", "schedule", "invitation"]
+        },
+        {
+            "target_agents": ["wedding", "schedule", "account"],
+            "utterance": "결혼 날짜를 2025년 6월로 잡고 싶은데, 그때 가능한 주말 날짜가 언제인지 스케줄 좀 확인해줘. 예산은 최대 5천만원까지 가능해.",
+            "selected_agents": ["wedding", "schedule"]
+        },
+        {
+            "target_agents": ["wedding", "residence", "account", "schedule"],
+            "utterance": "2025년 초에 결혼식 예정이야. 신혼집으로 용산구 아파트 매매로 알아봐줘. 결혼식은 대형으로 하고 싶고 예산은 7천만원까지 가능해.",
+            "selected_agents": ["wedding", "residence", "account"]
+        },
+        {
+            "target_agents": ["wedding", "account", "invitation", "schedule"],
+            "utterance": "결혼식 초대장을 100장 정도 준비하고 싶어. 예산은 총 1천만원으로 잡고 있고, 결혼식 일정은 내년 9월로 계획 중이야.",
+            "selected_agents": ["wedding", "account", "invitation"]
+        },
+        {
+            "target_agents": ["wedding", "residence", "account"],
+            "utterance": "결혼식은 소규모로 진행할 예정이야. 예산은 2천만원 정도이고, 서울 서초구에 신혼집을 전세로 구해줘.",
+            "selected_agents": ["wedding", "residence"]
+        },
+        {
+            "target_agents": ["wedding", "schedule", "residence"],
+            "utterance": "결혼식은 2025년 8월로 계획 중이야. 신혼집은 수도권에서 매매로 구하고 싶어. 결혼식과 이사 날짜를 잘 맞춰서 스케줄을 잡아줘.",
+            "selected_agents": ["wedding", "schedule", "account"]
+        },
+        {
+            "target_agents": ["wedding", "residence", "account"],
+            "utterance": "내년 봄에 결혼식을 올리고 싶어. 신혼집으로 강남구 쪽에 전세를 구하고 싶고, 예산은 5억 정도까지 가능해.",
+            "selected_agents": ["wedding", "residence", "schedule"]
+        },
+        {
+            "target_agents": ["wedding", "invitation", "account"],
+            "utterance": "결혼식은 2025년 12월에 하고 싶어. 청첩장을 고급스럽게 200장 정도 준비해줘. 예산은 3천만원으로 생각 중이야.",
+            "selected_agents": ["wedding", "invitation"]
+        },
+        {
+            "target_agents": ["wedding", "schedule", "account", "residence"],
+            "utterance": "결혼 날짜를 잡으려고 하는데, 2025년 가을에 가능하면 좋겠어. 예산은 결혼식 4천만원, 신혼집은 강북구 아파트 전세로 6억 정도야.",
+            "selected_agents": ["wedding", "account", "residence"]
+        },
+        {
+            "target_agents": ["wedding", "residence", "account", "invitation"],
+            "utterance": "결혼식을 2026년 초에 하고 싶어.  신혼집은 마포구에 전세로 구하고 싶고, 초대장 150장 정도가 필요해. 결혼식과 집 예산은 각각 3천만원과 7억이야.",
+            "selected_agents": ["wedding", "residence", "account"]
+        }
+    ]
+}
